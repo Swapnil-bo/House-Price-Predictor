@@ -1,5 +1,4 @@
 # 🏠 House Price Predictor: A Production-Ready ML Pipeline
-
 ![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -10,11 +9,11 @@ An end-to-end Machine Learning project predicting property values using the Ames
 ---
 
 ## 🚀 Live Demo
+👉 **[house-price-predictor-h4xszy5zhgrt42wjtcwkhb.streamlit.app](https://house-price-predictor-h4xszy5zhgrt42wjtcwkhb.streamlit.app/)**
 
-*(Add your deployed Streamlit link here once hosted on Streamlit Community Cloud or Vercel)*
+---
 
 ## ✨ Key Features & Methodology
-
 This isn't just a simple `model.fit()` script. The architecture is broken into three robust phases:
 
 * **Phase 1: Advanced EDA & Preprocessing (`eda.py`)**
@@ -35,10 +34,8 @@ This isn't just a simple `model.fit()` script. The architecture is broken into t
     * Live "Feature Impact" bar charts explaining exactly *why* a house is priced the way it is.
 
 ## 📂 Project Structure
-
 ```text
 house-price-predictor/
-├── .venv/                      # Virtual environment
 ├── .gitignore                  # Keeps venv and large files out of version control
 ├── train.csv                   # Raw Ames Housing dataset
 ├── app.py                      # Streamlit web application
@@ -47,4 +44,6 @@ house-price-predictor/
 ├── evaluation.py               # Phase 3: Metrics & Diagnostics
 ├── linear_pipeline.pkl         # Serialized baseline model
 ├── poly_pipeline.pkl           # Serialized complex model
+├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
+```
